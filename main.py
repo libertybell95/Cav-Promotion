@@ -4,9 +4,9 @@ import json
 import os
 import re
 from datetime import datetime, timedelta
-from dateutil import relativedelta
 
 import requests
+from dateutil import relativedelta
 from PIL import Image, ImageDraw, ImageFont
 
 
