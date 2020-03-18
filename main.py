@@ -19,9 +19,18 @@ class promotion:
             rank (str): Rank being promoted, short version (Ex: SGT).
             date (str): Date trooper is being promoted, in DD-MMM-YYYY format. (Ex: 25-Jan-2020)
         '''
+        
         self.milpacID = milpacID
         self.rank = rank
         self.date = date
+
+        with open("config.json") as file:
+            self.config = json.load(file)
+
+        ranks = [i["short"] for i in self.config["ranks"]]
+        if not rank in ranks:
+            print(f"{rank} is not a correct rank. Options are:\n{ranks}")
+            return 0
 
         with open("APIKey.txt") as file:
             self.APIKey = file.readline().replace("\n", "")
@@ -35,9 +44,6 @@ class promotion:
         self.trooper = [i for i in self.rawTroopers if i["milpac_id"] == milpacID][0]
         
         self.userID = self.trooper["user_id"] # Trooper's forum ID
-
-        with open("config.json") as file:
-            self.config = json.load(file)
 
         # Config info about requested rank.
         self.requestedRank = [i for i in self.config["ranks"] if i["short"] == rank][0]
@@ -288,7 +294,7 @@ class promotion:
 
 if __name__ == "__main__":
     promotion(
-        milpacID=258,
-        rank="SGT",
-        date="17-Mar-2020"
+        milpacID=int(input("Milpac ID: ")),
+        rank=input("Rank (short): ").upper(),
+        date=input("Date (dd-mmm-yyyy): ")
     ).push()
