@@ -3,6 +3,7 @@ import csv
 import json
 import os
 import re
+import sys
 from datetime import datetime, timedelta
 
 import requests
@@ -29,8 +30,10 @@ class promotion:
 
         ranks = [i["short"] for i in self.config["ranks"]]
         if not rank in ranks:
-            print(f"{rank} is not a correct rank. Options are:\n{ranks}")
-            return 0
+            sys.exit(f"{rank} is not a correct rank. Options are:\n{ranks}\nTerminating Program.")
+        
+        if not re.findall(r"\d{2}-\w{3}-\d{4}", date):
+            sys.exit(f"{date} is an improper date format.\nCorrect example: 04-Jan-2020\nTerminating Program.")
 
         with open("APIKey.txt") as file:
             self.APIKey = file.readline().replace("\n", "")
