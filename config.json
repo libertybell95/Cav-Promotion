@@ -1,0 +1,650 @@
+{
+    "ranks": [
+        {
+            "short": "AR",
+            "long": "Reservist",
+            "paygrade": "E0",
+            "RequiredTIG": 0,
+            "Approver": false,
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": false
+        },
+        {
+            "short": "RCT",
+            "long": "Recruit",
+            "paygrade": "E1",
+            "RequiredTIG": 0,
+            "Approver": false,
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": false
+        },
+        {
+            "short": "PVT",
+            "long": "Private",
+            "paygrade": "E2",
+            "RequiredTIG": 0,
+            "Approver": "RTC",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": false
+        },
+        {
+            "short": "PFC",
+            "long": "Private First Class",
+            "paygrade": "E3",
+            "RequiredTIG": 1,
+            "Approver": "RTC",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 475],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 10,
+                    "pos": [250, 516],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "SPC",
+            "long": "Specialist",
+            "paygrade": "E4",
+            "RequiredTIG": 2,
+            "Approver": "S1",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 475],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 10,
+                    "pos": [250, 516],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "CPL",
+            "long": "Corporal",
+            "paygrade": "E4",
+            "RequiredTIG": 4,
+            "Approver": "S1",
+            "NCORibbon": false,
+            "CheckNCOA": true,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 475],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 10,
+                    "pos": [250, 516],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "SGT",
+            "long": "Sergeant",
+            "paygrade": "E5",
+            "RequiredTIG": 4,
+            "Approver": "Company",
+            "NCORibbon": true,
+            "CheckNCOA": true,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 462],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 502],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "SSG",
+            "long": "Staff Sergeant",
+            "paygrade": "E6",
+            "RequiredTIG": 6,
+            "Approver": "Company",
+            "NCORibbon": true,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 462],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 502],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "SFC",
+            "long": "Sergeant First Class",
+            "paygrade": "E7",
+            "RequiredTIG": 6,
+            "Approver": "Company",
+            "NCORibbon": true,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 462],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 502],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "MSG",
+            "long": "Master Sergeant",
+            "paygrade": "E8",
+            "RequiredTIG": 6,
+            "Approver": "Battalion",
+            "NCORibbon": true,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 462],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 502],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "1ST",
+            "long": "First Sergeant",
+            "paygrade": "E8",
+            "RequiredTIG": 8,
+            "Approver": "Battalion",
+            "NCORibbon": true,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 462],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 502],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "SGM",
+            "long": "Sergeant Major",
+            "paygrade": "E9",
+            "RequiredTIG": 0,
+            "Approver": "",
+            "NCORibbon": true,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 462],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 502],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "CSM",
+            "long": "Command Sergeant Major",
+            "paygrade": "E9",
+            "RequiredTIG": 0,
+            "Approver": "",
+            "NCORibbon": true,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 462],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 13,
+                    "pos": [255, 502],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "WO1",
+            "long": "Warrant Officer 1",
+            "paygrade": "W1",
+            "RequiredTIG": 4,
+            "Approver": "S1",
+            "NCORibbon": false,
+            "CheckNCOA": true,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 355],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/OldeEnglish.ttf",
+                    "fontSize": 18,
+                    "pos": [250, 503],
+                    "dateText": "Given on this the [d] day of [m], [y]"
+                }
+            }
+        },
+        {
+            "short": "CW2",
+            "long": "Chief Warrant Officer 2",
+            "paygrade": "W2",
+            "RequiredTIG": 4,
+            "Approver": "Company",
+            "NCORibbon": false,
+            "CheckNCOA": true,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 355],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/OldeEnglish.ttf",
+                    "fontSize": 18,
+                    "pos": [250, 503],
+                    "dateText": "Given on this the [d] day of [m], [y]"
+                }
+            }
+        },
+        {
+            "short": "CW3",
+            "long": "Chief Warrant Officer 3",
+            "paygrade": "W3",
+            "RequiredTIG": 6,
+            "Approver": "Company",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 355],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/OldeEnglish.ttf",
+                    "fontSize": 18,
+                    "pos": [250, 503],
+                    "dateText": "Given on this the [d] day of [m], [y]"
+                }
+            }
+        },
+        {
+            "short": "CW4",
+            "long": "Chief Warrant Officer 4",
+            "paygrade": "W4",
+            "RequiredTIG": 6,
+            "Approver": "Company",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 355],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/OldeEnglish.ttf",
+                    "fontSize": 18,
+                    "pos": [250, 503],
+                    "dateText": "Given on this the [d] day of [m], [y]"
+                }
+            }
+        },
+        {
+            "short": "CW5",
+            "long": "Chief Warrant Officer 5",
+            "paygrade": "W5",
+            "RequiredTIG": 6,
+            "Approver": "COS",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/GaramondPrePro.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 355],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/OldeEnglish.ttf",
+                    "fontSize": 18,
+                    "pos": [250, 503],
+                    "dateText": "Given on this the [d] day of [m], [y]"
+                }
+            }
+        },
+        {
+            "short": "2LT",
+            "long": "Second Lieutenant",
+            "paygrade": "O1",
+            "RequiredTIG": 0,
+            "Approver": "COS",
+            "NCORibbon": false,
+            "CheckNCOA": true,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "1LT",
+            "long": "First Lieutenant",
+            "paygrade": "O2",
+            "RequiredTIG": 6,
+            "Approver": "Battalion",
+            "NCORibbon": false,
+            "CheckNCOA": true,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "CPT",
+            "long": "Captain",
+            "paygrade": "O3",
+            "RequiredTIG": 6,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "MAJ",
+            "long": "Major",
+            "paygrade": "O4",
+            "RequiredTIG": 6,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "LTC",
+            "long": "Lieutenant Colonel",
+            "paygrade": "O5",
+            "RequiredTIG": 6,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "COL",
+            "long": "Colonel",
+            "paygrade": "O6",
+            "RequiredTIG": 6,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "BG",
+            "long": "Brigadier General",
+            "paygrade": "O7",
+            "RequiredTIG": 0,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "MG",
+            "long": "Major General",
+            "paygrade": "O8",
+            "RequiredTIG": 0,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "LTG",
+            "long": "Lieutenant General",
+            "paygrade": "O9",
+            "RequiredTIG": 0,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "GEN",
+            "long": "General",
+            "paygrade": "O10",
+            "RequiredTIG": 0,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        },
+        {
+            "short": "GOA",
+            "long": "General of the Army",
+            "paygrade": "O10",
+            "RequiredTIG": 0,
+            "Approver": "",
+            "NCORibbon": false,
+            "CheckNCOA": false,
+            "citation": {
+                "name": {
+                    "fontName": "fonts/timesbd.ttf",
+                    "fontSize": 15,
+                    "pos": [250, 482],
+                    "caps": true
+                },
+                "date": {
+                    "fontName": "fonts/times.ttf",
+                    "fontSize": 12,
+                    "pos": [250, 518],
+                    "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+                }
+            }
+        }
+    ],
+    
+    "NCORibbon": {
+        "citation": {
+            "name": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [225, 368],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [225, 466],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
+    }
+    
+}
